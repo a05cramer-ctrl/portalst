@@ -1,0 +1,17 @@
+{
+  "name": "portal-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "check": "node --check api/mcp.js && node --check api/swap.js && node --check api/order.js && node --check api/execute.js && node --check api/token.js && for f in lib/*.js; do node --check $f || exit 1; done",
+    "selftest": "node lib/_selftest.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "@upstash/redis": "1.40.0",
+    "mcp-handler": "2.3.0",
+    "zod": "4.6.7"
+  }
+}
