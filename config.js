@@ -1,1 +1,1 @@
-window.PORTAL_CFG={NAME:"PORTAL",TICKER:"PORTAL",CA:"",CHAIN:"solana",PAD:"pump.fun",PAIR:"",X:"",BUY:"",CHART:"",MCP:""};
+window.PORTAL_CFG={NAME:"PORTAL",TICKER:"PORTAL",CA:"D2dMqq3v5vjyGxdQRsKofMwAn2axZuHaBRNWup1kpump",CHAIN:"solana",PAD:"pump.fun",PAIR:"",X:"https://x.com/useportalchat",BUY:"https://pump.fun/coin/D2dMqq3v5vjyGxdQRsKofMwAn2axZuHaBRNWup1kpump",CHART:"https://gmgn.ai/sol/token/D2dMqq3v5vjyGxdQRsKofMwAn2axZuHaBRNWup1kpump",MCP:""};
